@@ -39,9 +39,9 @@ public class Test1 {
   public void test2() throws Exception {
     driver.get(baseUrl + "/");
     driver.findElement(By.id("email")).clear();
-    driver.findElement(By.id("email")).sendKeys("aigulka095@gmail.com");
+    driver.findElement(By.id("email")).sendKeys("************");
     driver.findElement(By.id("pass")).clear();
-    driver.findElement(By.id("pass")).sendKeys("underwater");
+    driver.findElement(By.id("pass")).sendKeys("**********");
     driver.findElement(By.id("loginbutton")).click(); 
     TimeUnit.SECONDS.sleep(3);
   }
